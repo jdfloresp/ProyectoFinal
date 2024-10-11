@@ -1,0 +1,60 @@
+http://localhost:8080/cliente/registro
+http://localhost:8080/cliente/listarclientes
+{
+        "Nombres": "Juan Alberto",
+        "Apellidos": "Perez Torres",
+        "Dni": "23456712",
+        "Email": "alberto@gmail.com"
+     }
+
+
+http://localhost:8080/cuenta/registro
+http://localhost:8080/cuenta/listCuentas
+{
+    
+    "datosCliente": "Pedro Dominguez",
+    "numCuenta": "876543213",
+    "saldo": 2000,
+    "tipoCuenta": "dolares"
+}
+
+
+http://localhost:8080/transaccionretiro/retiro
+http://localhost:8080/transaccionretiro/listRetiros
+{
+    
+    "montoRetiro": 1200,
+    "cuentaRetiro":"87654321"
+}
+
+
+http://localhost:8080/transacciondeposito/deposito
+http://localhost:8080/transacciondeposito/listDepositos
+
+{
+    
+    "montoDeposito": 1500,
+    "cuentaDeposito":"12345678"
+}
+
+
+http://localhost:8080/transacciontransferencia/transferencia
+http://localhost:8080/transacciontransferencia/listTransferencias
+{
+    
+    "montoTransferencia": 3500,
+    "cuentaOrigen":"12345678",
+    "cuentaDestino":"12345678"
+}
+
+
+
+
+
+
+
+
+
+
+
+
